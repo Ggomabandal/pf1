@@ -521,72 +521,76 @@ footer {
   
 }
 footer div.wrap { 
-  width: auto;
-  line-height: 2;
+  max-width: 1903px;
+  padding-bottom: 40px;
 }
 footer div.wrap .full{  
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 footer div.wrap ul.fnb {  
-  /*! flex-wrap: wrap; */
-  margin-bottom: 48px;
   width: 1440px;
   margin: 0 auto;
-  height: 370px;
+  height: 460px;
   position: relative;
 }
 footer div.wrap ul.fnb > li {
   border-left: 1px solid #666;
   width: calc(100% / 6);
   box-sizing: border-box;
-  padding: 30px 0px 30px 20px;
 }
 footer div.wrap ul.fnb > li:first-child{
-  width: calc(100% / 6 * 2);
 }
 footer div.wrap ul.fnb > li:nth-child(5){
-  border-right: 1px solid #666;
 }
 footer div.wrap ul.fnb > li:nth-child(6){
   position: absolute;
   left: calc(100% / 6 * 4);
-  top: 160px;
+  top: 200px;
+}
+footer div.wrap ul.fnb > li:nth-child(7){
+  border-right: 1px solid #666; 
 }
 footer div.wrap ul.fnb>li:last-child{
   position: absolute;
   left: calc(100% / 6 *5);
-  top: 160px;
+  top: 285px;
 }
 footer div.wrap ul.fnb li h2 {
-  
-  margin-bottom: 20px;
+  padding: 20px 10px;
+  font-weight: 400;
+  font-size: 18px;
 }
 footer div.wrap ul.fnb li ul.sub {
-  
+
+}
+footer div.wrap ul.fnb li:nth-of-type(2) ul.sub {
+  padding-top: 66px;
 }
 footer div.wrap ul.fnb li ul.sub li {
-  
-}
-footer div.wrap ul.fnb li ul.sub li a { 
-  line-height: 2;
-  display: block;
+  line-height: 1.4;
+  padding: 0 10px;
 }
 
-footer div.wrap address {
-  line-height: 2;
-  font-style: normal;
+footer div.wrap ul.fnb li ul.sub li a {
+  font-size: 14px;
+
+  font-weight: 100;
 }
-footer div.wrap address a {
-  
+footer div.wrap .address{
+  border-bottom: 1px solid #666;
+  padding-bottom: 40px;
 }
-footer div.wrap p {
-    line-height: 1.6;
+footer div.wrap .address address {
+  width: 1440px;
+  margin: 0 auto;
 }
-footer div.wrap .wcopyright{
-  margin: 35px 0;
+footer div.wrap .address address a {
+  width: 1440px;
+  margin: 0 auto;
 }
-footer div.wrap .wcopyright p{
-  line-height: 5;
+footer div.wrap .address p {
+  width: 1440px;
+  margin: 0 auto;
 }
